@@ -1,0 +1,195 @@
+section{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar{
+
+}
+
+/* Reset some default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the hero section */
+.navigationbar {
+    background-color: #1F2937;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding-left: 60px;
+    padding-right: 100px;
+}
+
+/* Style the header logo */
+.header-logo {
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+/* Style the navigation links */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ae9999;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Give more space to the last link */
+nav a:last-child {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.hero{
+    background-color: #1F2937;
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-heading{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    width: 342px;
+}
+
+.hero-subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 450px;
+    margin-bottom: 20px;
+}
+ button{
+    background-color: #3882f6;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+
+ }
+.hero-image img{
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.section-3{
+    padding: 80PX;
+}
+
+.random-info{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.four-box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.card{
+    width: 140px;
+    height: 140px;
+    /* background-color: #3882f6; */
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.four-box p{
+    text-align: center;
+    width: 150px;
+}
+
+.section-4{
+    padding: 80PX;
+    background-color: #efe7eb;
+    text-align: center;
+}
+
+.typo{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.italictypo{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+}
+
+.author{
+    align-self: flex-end;
+    font-weight: bolder;
+}
+
+.section-5{
+    padding: 80px;
+}
+
+.calltoaction{
+    width: 84em;
+    background-color: #3882f6;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.calltoaction p{
+    font-size: 1.2em;
+    width: 52em;
+    color: white;
+    float: left;
+}
+
+.calltoaction button{
+    width: 20em;
+    height: 4em;
+    border: 1px solid;
+}
+
+.call{
+    font-weight: bolder;
+}
+
+footer{
+    color: white;
+    width: 100%;
+    height: 5em;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
